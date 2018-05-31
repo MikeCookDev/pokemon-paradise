@@ -1,0 +1,68 @@
+header {
+    color: white;
+    font-family: Georgia, Times, serif;
+    border: solid;
+    border-color: #028193;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 50px;
+    width: auto;
+    background-image: url(tropical4.jpg)
+    
+    
+}
+
+.content {
+    max-width:auto;
+    margin: auto;
+}
+
+body {
+    background-color: #54C3C8;
+    padding: 0 px;
+    font-family: Georgia, Times, serif;
+    color: #333;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #026573;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #56BBC9;
+    color: black;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.footer {
+    background-color: #026573;
+    text-align: center;
+    padding: 10px;
+}
