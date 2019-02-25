@@ -1,0 +1,81 @@
+.jumbotron {
+    color: #54C3C8;
+    border: 5px solid #98CBB4;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-shadow: 2px 2px black;
+    background-color: white;
+    background-image: url(images/IB3NDhC.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    background-color: #54C3C8;
+    font-family: 'Righteous', cursive,Georgia, Times, serif; 
+    /*color: white;  */ 
+}
+
+.navbar {
+    text-align: center;
+    overflow: hidden;
+    background-color: #B5FED9;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.navbar-nav li a {
+    float: left;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.navbar-nav a:hover {
+    background-color: #56BBC9;
+    
+}
+
+.navbar-brand {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 12px;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #B5FED9;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+#news {
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+    margin: 5px;
+    width: 70%;
+}
+
+#news a:hover {
+   color: #0090C1;
+
+}
+
+.card-header {
+    background-color: #028193;
+    color: white;
+}
+
+.btn{
+    margin: 3px;
+    align-items: bottom;
+}
